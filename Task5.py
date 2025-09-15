@@ -6,7 +6,7 @@
 
 def main():
     #Write your code here
-       italyScore = int(input("Italy: "))
+    italyScore = int(input("Italy: "))
     brazilScore = int(input("Brazil: "))
     if italyScore > brazilScore:
         print("Italy won the match.")
@@ -15,11 +15,7 @@ def main():
     else:
         print("The match was a draw.")
 
-
     # End of your code here
-
-
-
 
 
 if __name__ == '__main__':
