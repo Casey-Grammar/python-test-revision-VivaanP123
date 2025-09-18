@@ -9,9 +9,10 @@ def main():
        print("I DIDN'T HEAR YOUR ORDER!")
     elif drink.isupper():
       many = input("HOW MANY? ")
-    coffee scoops = many * 4
-    print(f'{many} {drink}S COMING RIGHT UP!')
-    print(f'The barrister needs {coffee scoops} scoops of coffee in the coffee making machine')
+      many = int(many)
+      coffee_scoops = many * 4
+      print(f'{many} {drink}S COMING RIGHT UP!')
+      print(f'The barrister needs {coffee_scoops} scoops of coffee in the coffee making machine')
     
 
 # End of code to be fixed
