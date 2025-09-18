@@ -4,10 +4,10 @@
 
 def main():
     #Fix the code starting here
-    drink = input("WHAT DRINK DO YOU WANT TO ORDER?)
+    drink = input("WHAT DRINK DO YOU WANT TO ORDER?")
     if drink.islower():
-     print("I DIDN'T HEAR YOUR ORDER!"
-      elif drink.isupper():
+       print("I DIDN'T HEAR YOUR ORDER!")
+    elif drink.isupper():
       many = input("HOW MANY? ")
     coffee scoops = many * 4
     print(f'{many} {drink}S COMING RIGHT UP!')
